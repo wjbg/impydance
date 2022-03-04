@@ -1,0 +1,7 @@
+# Emacs backup files
+*~
+
+# Emacs and Python stuff
+__pycache__
+venv
+pyrightconfig.json
