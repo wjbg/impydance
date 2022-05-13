@@ -26,13 +26,13 @@ The module can be run from the command prompt and features a decent
 help description.
 
 ```
-python impydance --help
+python impydance.py --help
 ```
 
 As a first step, you need to generate a configuration file:
 
 ```
-python impydance cfg
+python impydance.py cfg
 ```
 
 This will create a file `impydance.cfg` with a device ID, a frequency
@@ -42,29 +42,29 @@ or amplitude sweep. By default, `impydance` will use the generated
 configuration file.
 
 ```
-python impedance fsweep
+python impydance.py fsweep
 
-python impedance asweep
+python impydance.py asweep
 ```
 
 The data is stored in case a file name is provided:
 
 ```
-python impedance fsweep data.txt
+python impydance.py fsweep data.txt
 ```
 
 In addition, the `--batch` can be used to perform five consecutive
 sweeps:
 
 ```
-python impedance fsweep --batch data.txt
+python impydance.py fsweep --batch data.txt
 ```
 
 Additional information for the `asweep` and `fsweep` is available via
 the `--help` flag:
 
 ```
-python impedance fsweep --help
+python impydance.py fsweep --help
 ```
 
 Of course the module can also be used in an interactive computing
